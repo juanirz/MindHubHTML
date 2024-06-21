@@ -2,13 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+
 }
 h1{
  color: rgb(3, 3, 3);
  text-align: center;
 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 text-align: left;
+font-size: 30px;
 }
 nav{
 position: absolute;
@@ -33,11 +34,12 @@ header{
     background-position: center;
     background-size: cover;
 }
+
 h2{
     text-align: center;
     border : 1px solid black;
     margin-right: 100px;
-    padding: 5px;
+    padding: 5px;;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .logo{
@@ -55,6 +57,15 @@ main{
 }
 footer{
     text-align: center;
+    
+}
+.h2about{
+    text-align: center;
+    border : 1px solid black;
+    margin-right: 100px;
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
 }
 .logoabout{
     display: inline-block;
